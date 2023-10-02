@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    
+  }
+  
+  /* Estilos para los elementos de navegación */
+  .nav-item {
+    list-style: none; /* Quita los puntos de lista */
+    margin-right: 20px; /* Espacio entre elementos */
+  }
+  
+  /* Estilos para los enlaces */
+  .nav-item a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #fff; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Cambiar color al pasar el mouse por encima del enlace */
+  .nav-item a:hover {
+    color: #ff5733;
+  }
+  

@@ -1,0 +1,34 @@
+/* styles.css */
+
+.inline-list-item {
+    display: inline;
+    margin-right: 10px; /* Espacio entre elementos, ajusta según sea necesario */
+  }
+  
+  .fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://img.freepik.com/free-photo/top-view-stethoscope-with-paper-bone-paw-print-animal-day_23-2148668866.jpg?w=740&t=st=1695665061~exp=1695665661~hmac=df23b9aec57369abbfb3b05c3819dea6796194dc2631fcc5434f2b1341f7ce78");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+    background-color: rgba(8, 96, 131, 0.9);
+  }
+
+  .letra  {
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial o tu fuente deseada */
+    font-size: 30px; /* Cambia el tamaño de fuente a 18px o el valor que prefieras */
+    /* Otros estilos CSS que desees aplicar */
+  }
+
+  navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  

@@ -1,0 +1,44 @@
+/* PaginaPrincipal.css */
+.pagina-principal {
+  position: relative;
+}
+
+.fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-photo/top-view-stethoscope-with-paper-bone-paw-print-animal-day_23-2148668866.jpg?w=740&t=st=1695665061~exp=1695665661~hmac=df23b9aec57369abbfb3b05c3819dea6796194dc2631fcc5434f2b1341f7ce78");
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+  background-color: rgba(8, 96, 131, 0.9);
+}
+
+.contenido {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.informacion-texto {
+  font-family: Arial, sans-serif;
+  /* Cambia la fuente a Arial o tu fuente deseada */
+  font-size: 35px;
+  /* Cambia el tamaño de fuente a 18px o el valor que prefieras */
+  /* Otros estilos CSS que desees aplicar */
+}
+
+/* styles.css */
+.informacion-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* Esto centrará el texto horizontalmente */
+  /* Agrega cualquier otro estilo necesario */
+  font-weight: bold;
+}
